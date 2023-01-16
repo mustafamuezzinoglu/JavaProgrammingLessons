@@ -1,4 +1,4 @@
-package day44_Abstraction.Animal;
+package day44_Abstraction.AnimalTask;
 
 public final class Eagle extends Animal{
 
