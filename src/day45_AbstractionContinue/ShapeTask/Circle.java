@@ -1,6 +1,24 @@
 package day45_AbstractionContinue.ShapeTask;
 
-public  class Circle extends Shape {
+/*
+interface XX{
+}
+interface YY{
+}
+abstract class BB{
+}
+abstract class AA{
+}
+*/
+/*
+public abstract class QQ{  // second public class giver error
+
+}
+*/
+
+public  class Circle extends Shape { //only this class has to be public because just its name must match the file name
+//                                         so rest of the classes access modifier default
+
 
     private double radius;
 
