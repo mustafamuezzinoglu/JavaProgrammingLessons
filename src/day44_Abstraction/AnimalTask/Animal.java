@@ -18,6 +18,7 @@ public abstract class Animal {
     private final String color;
 
     public  final static boolean canBreathe;
+
     static {
         canBreathe = true;
     }

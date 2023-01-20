@@ -5,6 +5,8 @@ public interface Volume { //only this class has to be public because just its na
     boolean hasVolume = true;
 
     double volume();
+
+
    /* // i dont need it
     default void drink(){
         System.out.println("Drinks water");
