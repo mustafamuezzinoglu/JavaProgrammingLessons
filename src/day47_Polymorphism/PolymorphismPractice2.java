@@ -29,14 +29,13 @@ public class PolymorphismPractice2 {
         };
 
 //        2.1 store all the developers & testers into the following List of employees
-//        List<Employee> scrumMembers = new ArrayList<>();
         List<Employee> scrumMembers = new ArrayList<>();
-        for (Employee eachemployee : employees) {
-            if (eachemployee instanceof Tester || eachemployee instanceof Developer) {
-                scrumMembers.add(eachemployee);
+        for (Employee eachEmployee : employees) {
+            if (eachEmployee instanceof Tester || eachEmployee instanceof Developer) {
+                scrumMembers.add(eachEmployee);
             }
         }
-
+        System.out.println("scrumMembers = " + scrumMembers+"\n");
         System.out.println("----------------------------------------------");
 //        2.2 store all the testers into the following List of testers:
 //        List<Tester> testers = new ArrayList<>();
@@ -46,12 +45,15 @@ public class PolymorphismPractice2 {
             if (scrumMember instanceof Tester) {
                 testers.add((Tester) scrumMember);
             }
+
 //        2.3 store all the developers into the following List of developers:
 //        List<Developer> developers = new ArrayList<>();
             if (scrumMember instanceof Developer) {
                 developers.add((Developer) scrumMember);
             }
         }
+        System.out.println("testers = " + testers);
+        System.out.println("developers = " + developers);
         System.out.println("----------------------------------------------");
 
 //        2.4 which tester has the maximum salary

@@ -51,14 +51,14 @@ public class PolymorphismIntro {
 
         animal.drink();
         animal.eat();
-//      animal.play(); it gives an error because animal they do not have play method
-//      animal.bark(); it gives an error because animal they do not have bark method
+//      animal.play(); it gives an error because Animal parent class does not have play method
+//      animal.bark(); it gives an error because Animal parent class does not have bark method
 
         Playable animal2 = new Dog("Max","Husky",'M', 4, "Large","White");
         System.out.println(animal2.isFriendly);
         animal2.play();
-//        animal2.drink(); it gives an error because Playable they do not have drink method
-//        animal2.eat();   it gives an error because Playable they do not have eat method
+//        animal2.drink(); it gives an error because Playable parent class does not  have drink method
+//        animal2.eat();   it gives an error because Playable parent class does not have eat method
 
         Animal animal3 = new Cat("Love", "Siamese", 'F', 2, "Large", "Black");
 
