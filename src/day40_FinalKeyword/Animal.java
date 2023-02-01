@@ -8,6 +8,7 @@ public class Animal {
     private String size;
     private int age;
 
+
     //----------Constructor--------------------
     public Animal(String name, String breed, char gender, String color, String size, int age) {
         this.name = name;
@@ -65,7 +66,6 @@ public class Animal {
     public final void drink() {
         System.out.println(name+ " is drinking water");
     }
-
 
 
 }

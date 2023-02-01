@@ -7,5 +7,6 @@ public class Zoo {
         System.out.println(dog.getName());
         System.out.println(dog.getSize() );
        dog.drink();
+
     }
 }
