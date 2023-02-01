@@ -47,7 +47,6 @@ public class MapPractice {
         List<Map<String, Double>> allUnits = new ArrayList<>();
         allUnits.addAll(Arrays.asList(unit1, unit2, unit3, unit4, unit5, unit6));
 
-
 //Display each Java topic and its hours on the console
         for (Map<String, Double> eachUnit : allUnits) {
             for (Map.Entry<String, Double> pairs : eachUnit.entrySet()) {
@@ -55,6 +54,7 @@ public class MapPractice {
             }
         }
         System.out.println("----------------------------------------------------");
+
 //Display the names of the java topics that we spend more than 7 hours
         System.out.println("More than 7 hours we spend ");
         for (Map<String, Double> eachUnit : allUnits) {
@@ -65,6 +65,7 @@ public class MapPractice {
             }
         }
         System.out.println("----------------------------------------------------");
+
 //Display the names of the java topics that we spend less than 3 hours
         System.out.println("Less  than 3 hours we spend ");
         for (Map<String, Double> eachUnit : allUnits) {
@@ -75,6 +76,7 @@ public class MapPractice {
             }
         }
         System.out.println("----------------------------------------------------");
+
 //Which Java Topic has the maximum hours?
         double maxHours =Double.MIN_VALUE;
         String nameMax = "";
@@ -87,6 +89,7 @@ public class MapPractice {
             }
         }
         System.out.println("name "+ nameMax+" max Hours "+maxHours);
+
 //Which Java Topic has the minimum hours?
         double minHours =Double.MAX_VALUE;
         String nameMin = "";
@@ -99,5 +102,7 @@ public class MapPractice {
             }
         }
         System.out.println("name "+ nameMin+" max Hours "+minHours);
+
+        
     }
 }
