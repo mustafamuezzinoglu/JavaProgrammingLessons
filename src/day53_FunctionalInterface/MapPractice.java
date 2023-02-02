@@ -1,4 +1,4 @@
-package day53;
+package day53_FunctionalInterface;
 
 import java.util.*;
 
@@ -103,6 +103,6 @@ public class MapPractice {
         }
         System.out.println("name "+ nameMin+" max Hours "+minHours);
 
-        
+
     }
 }
