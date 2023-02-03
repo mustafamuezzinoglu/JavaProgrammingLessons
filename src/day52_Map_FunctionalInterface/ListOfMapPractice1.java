@@ -93,9 +93,9 @@ public class ListOfMapPractice1 {
         //Print the names of all Developers
         System.out.println("names of all developer: ");
         for (Map<String, String> eachScrumTeam : list) {
-            for (Map.Entry<String, String> eachpair : eachScrumTeam.entrySet()) {
-                if(eachpair.getValue().equalsIgnoreCase("developer")){
-                    System.out.println(eachpair.getKey());
+            for (Map.Entry<String, String> eachPair : eachScrumTeam.entrySet()) {
+                if(eachPair.getValue().equalsIgnoreCase("developer")){
+                    System.out.println(eachPair.getKey());
             }
 
             }
